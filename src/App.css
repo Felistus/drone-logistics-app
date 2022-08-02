@@ -1,0 +1,78 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  animation: logoUpAndDown 5s linear infinite;
+}
+@keyframes logoUpAndDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.line-anim {
+  animation: line-change infinite 10s linear;
+}
+@keyframes line-change {
+  0% {
+    width: 60px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 60px;
+  }
+}
+
+.droneUpAndDown {
+  animation: moveUpDown 5s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+
+.droneShadow {
+  background-color: rgba(0, 0, 0, 0.178);
+  margin: 0 auto;
+  width: 50px;
+  height: 10px;
+  border-radius: 100px;
+  transform: skewX(50deg);
+  animation: shadow 6s linear infinite;
+}
+@keyframes shadow {
+  0%,
+  100% {
+    width: 50px;
+  }
+  50% {
+    background-color: #777b9b;
+    width: 100px;
+  }
+}
+
+/* .droneRoll {
+  animation: roll 5s linear infinite;
+}
+@keyframes roll {
+  0%,
+  100% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+} */
