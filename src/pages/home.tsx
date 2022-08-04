@@ -12,7 +12,7 @@ export default function Home() {
         className="w-full h-[calc(100vh-56px)] md:h-[calc(100vh-64px)]  "
       >
         <Toolbar />
-        <section className="md:flex justify-center h-full bg-[url('/dotBg.svg')] ">
+        <section className="md:flex justify-center h-full ">
           <Box className="md:w-3/6 p-3 text-[#605D83] flex flex-col space-y-20 justify-center h-full ">
             <Box>
               <h3 className="text-[30px] md:text-[48px] font-bold ">
